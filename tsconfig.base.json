@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@dashboard-web-client/bls-configs": ["libs/bls-configs/src/index.ts"],
+      "@dashboard-web-client/bls-constants": [
+        "libs/bls-constants/src/index.ts"
+      ],
+      "@dashboard-web-client/bls-models": ["libs/bls-models/src/index.ts"],
+      "@dashboard-web-client/bls-plugin": ["bls-plugin/src/index.ts"],
+      "@dashboard-web-client/bls-store": ["libs/bls-store/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

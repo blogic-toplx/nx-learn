@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "convert-to-buildable": {
+      "factory": "./src/generators/convert-to-buildable/generator",
+      "schema": "./src/generators/convert-to-buildable/schema.json",
+      "description": "convert-to-buildable generator"
+    }
+  }
+}
